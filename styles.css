@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.hero {
+    background: url('luxury-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    
+}
+
+.doctor-photo {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.luxury-section {
+    padding: 60px 0;
+    background-color: rgb(183, 184, 153);
+    
+}
+
+.luxury-section:nth-child(even) {
+    background-color: #5a3102;
+}
+
+.luxury-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.luxury-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+p, h2{
+    color: white;
+}
